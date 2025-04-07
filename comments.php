@@ -5,7 +5,8 @@
  * The area of the page that contains both current comments
  * and the comment form.
  *
- * @package Understrap
+ * @package Flux_Commerce
+ * @since 1.0
  */
 
 // Exit if accessed directly.
@@ -34,7 +35,7 @@ if ( post_password_required() ) {
 				printf(
 					/* translators: %s: post title */
 					esc_html_x( 'One thought on &ldquo;%s&rdquo;', 'comments title', 'understrap' ),
-					'<span>' . get_the_title() . '</span>'
+					'<span>' . get_the_title() . '</span>' // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 				);
 			} else {
 				printf(
@@ -49,29 +50,30 @@ if ( post_password_required() ) {
 						)
 					),
 					number_format_i18n( $comments_number ), // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-					'<span>' . get_the_title() . '</span>'
+					'<span>' . get_the_title() . '</span>' // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 				);
 			}
 			?>
 
 		</h2><!-- .comments-title -->
 
-		<?php understrap_comment_navigation( 'comment-nav-above' ); ?>
+		<?php the_comments_navigation(); ?>
 
 		<ol class="comment-list">
 
 			<?php
 			wp_list_comments(
 				array(
-					'style'      => 'ol',
-					'short_ping' => true,
+					'style'       => 'ol',
+					'short_ping'  => true,
+					'avatar_size' => 42,
 				)
 			);
 			?>
 
 		</ol><!-- .comment-list -->
 
-		<?php understrap_comment_navigation( 'comment-nav-below' ); ?>
+		<?php the_comments_navigation(); ?>
 
 	<?php endif; // End of if have_comments(). ?>
 

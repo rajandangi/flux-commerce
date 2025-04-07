@@ -1020,7 +1020,7 @@ p.demo_store {
 }
 
 #comments .depth-1 {
-    padding: 2rem 0;
+    padding: 2rem 1rem;
 }
 
 #comments .nav-links a {

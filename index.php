@@ -55,6 +55,14 @@ get_header();
 						</article>
 						<?php
 					endwhile;
+					// Pagination.
+					the_posts_pagination(
+						array(
+							'prev_text' => 'Previous',
+							'next_text' => 'Next',
+						)
+					);
+					wp_reset_postdata();
 				} else {
 					// No posts found.
 					echo '<p>No posts found.</p>';
