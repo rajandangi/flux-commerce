@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Flux Commerce\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 07:08+0000\n"
-"PO-Revision-Date: 2025-04-08 09:05+0000\n"
+"PO-Revision-Date: 2025-04-08 11:06+0000\n"
 "Last-Translator: \n"
 "Language-Team: Nepali\n"
 "Language: ne_NP\n"
@@ -36,7 +36,7 @@ msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "&ldquo;%2$s&rdquo; माथी %1$s विचार"
-msgstr[1] "&ldquo;%2$s&rdquo; माथी %1$s विचारहरू "
+msgstr[1] "&ldquo;%2$s&rdquo; माथी %1$s विचारहरू"
 
 #. %s: post title
 #: comments.php:37

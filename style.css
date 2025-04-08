@@ -6,8 +6,11 @@ Author URI: https://www.rajandangi.com.np
 Description: Flux Commerce is a WooCommerce compatible wordpress theme designed for e-commerce websites. It features a clean and modern design, optimized for performance and user experience. The theme is fully responsive, ensuring a seamless shopping experience across all devices. With customizable options and support for popular plugins, Flux Commerce is the perfect choice for online stores looking to enhance their brand presence and drive sales.
 Version: 1.0
 Text Domain: flux-commerce
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GNU General Public License v3 or later
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 8.0
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar, sticky-post, threaded-comments
 */
 

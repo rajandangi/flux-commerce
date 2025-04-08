@@ -20,6 +20,7 @@
 </head>
 
 <body <?php	body_class(); ?>>
+	<?php wp_body_open(); ?>
 	<div class="site" id="page">
 		<header>
 			<section class="search">
