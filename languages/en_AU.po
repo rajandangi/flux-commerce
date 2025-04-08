@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Flux Commerce\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 07:08+0000\n"
-"PO-Revision-Date: 2025-04-08 07:56+0000\n"
+"PO-Revision-Date: 2025-04-08 09:04+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (Australia)\n"
 "Language: en_AU\n"
@@ -72,6 +72,10 @@ msgstr "Deal of the week"
 #: inc/customizer.php:313
 msgid "Deal of the Week: Product ID"
 msgstr "Deal of the Week: Product ID"
+
+#: template-parts/default-slider.php:36
+msgid "Default image not found."
+msgstr "Default image not found."
 
 #. %d: Slider number
 #: inc/customizer.php:120 inc/slider-item.php:64
@@ -183,6 +187,10 @@ msgstr "New Arrivals: Maximum Number of Columns/Rows"
 msgid "New Arrivals: Max Number of Products to Show"
 msgstr "New Arrivals: Maximum Number of Products to Display"
 
+#: archive.php:34
+msgid "Next"
+msgstr "Next"
+
 #. No posts found.
 #: index.php:39 archive.php:40 template-parts/home-blog.php:62
 msgid "No posts found."
@@ -212,6 +220,10 @@ msgstr "Popular: Maximum Number of Columns/Rows"
 #: inc/customizer.php:204
 msgid "Popular: Max Number of Products to Show"
 msgstr "Popular: Maximum Number of Products to Display"
+
+#: archive.php:33
+msgid "Previous"
+msgstr "Previous"
 
 #. %s: Author's posts link
 #: template-parts/post-meta.php:18

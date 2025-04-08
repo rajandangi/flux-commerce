@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Flux Commerce\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-08 07:08+0000\n"
-"PO-Revision-Date: 2025-04-08 07:47+0000\n"
+"PO-Revision-Date: 2025-04-08 09:05+0000\n"
 "Last-Translator: \n"
 "Language-Team: Nepali\n"
 "Language: ne_NP\n"
@@ -72,6 +72,10 @@ msgstr "सप्ताहको सम्झौता"
 #: inc/customizer.php:313
 msgid "Deal of the Week: Product ID"
 msgstr "सप्ताहको प्रस्ताव: उत्पादन आईडी"
+
+#: template-parts/default-slider.php:36
+msgid "Default image not found."
+msgstr "डिफल्ट ईमेज फेला परेन।"
 
 #. %d: Slider number
 #: inc/customizer.php:120 inc/slider-item.php:64
@@ -184,6 +188,10 @@ msgstr "नयाँ आगमन: अधिकतम स्तम्भ/पं�
 msgid "New Arrivals: Max Number of Products to Show"
 msgstr "नयाँ आगमन: देखाउने उत्पादनहरूको अधिकतम संख्या"
 
+#: archive.php:34
+msgid "Next"
+msgstr "अर्को"
+
 #. No posts found.
 #: index.php:39 archive.php:40 template-parts/home-blog.php:62
 msgid "No posts found."
@@ -213,6 +221,10 @@ msgstr "लोकप्रिय: अधिकतम स्तम्भ/पं�
 #: inc/customizer.php:204
 msgid "Popular: Max Number of Products to Show"
 msgstr "लोकप्रिय: देखाउने उत्पादनहरूको अधिकतम संख्या"
+
+#: archive.php:33
+msgid "Previous"
+msgstr "अघिल्लो"
 
 #. %s: Author's posts link
 #: template-parts/post-meta.php:18

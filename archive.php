@@ -30,14 +30,14 @@ get_header();
 						// Pagination.
 						the_posts_pagination(
 							array(
-								'prev_text' => 'Previous',
-								'next_text' => 'Next',
+								'prev_text' => esc_html__( 'Previous', 'flux-commerce' ),
+								'next_text' => esc_html__( 'Next', 'flux-commerce' ),
 							)
 						);
 						wp_reset_postdata();
 					} else {
 						// No posts found.
-                        esc_html_e( 'No posts found.', 'flux-commerce' );
+						esc_html_e( 'No posts found.', 'flux-commerce' );
 					}
 					?>
 				</div>

@@ -1,1 +1,4 @@
 .DS_Store
+languages/*-backup-*.po~
+languages/*-backup-*.mo~
+languages/flux-commerce-backup-*.pot~

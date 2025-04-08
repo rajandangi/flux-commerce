@@ -33,5 +33,5 @@ if ( ! empty( $default_image ) ) {
 		$default_slider['button_url']
 	);
 } else {
-	echo '<p>Default slider image not found.</p>';
+	esc_html_e( 'Default image not found.', 'flux-commerce' );
 }
