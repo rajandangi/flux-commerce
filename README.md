@@ -56,12 +56,12 @@ If you encounter any bugs or have any suggestions for improvements, please open 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the GNU General Public License v2.0 or later. See the [LICENSE](http://www.gnu.org/licenses/gpl-2.0.html) file for more details.
 
-## Contact
+### Copyright
 
-For any questions or support, please contact us at [contact@rajandangi.com.com].
+Copyright © 2025 Rajan Dangi. All rights reserved.
 
----
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
 
-Thank you for using Flux Commerce! We hope it helps you create a successful e-commerce website.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
