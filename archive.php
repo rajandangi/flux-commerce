@@ -37,7 +37,7 @@ get_header();
 						wp_reset_postdata();
 					} else {
 						// No posts found.
-						echo '<p>No posts found.</p>';
+                        esc_html_e( 'No posts found.', 'flux-commerce' );
 					}
 					?>
 				</div>

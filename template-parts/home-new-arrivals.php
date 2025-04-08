@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 <section class="new-arrivals">
 	<div class="container">
 		<div class="section-title">
-			<h2>New Arrivals</h2>
+			<h2><?php esc_html_e( 'New Arrivals', 'flux-commerce' ); ?></h2>
 		</div>
 		<?php
 		$new_arrivals_limit   = esc_attr( get_theme_mod( 'flux_commerce_settings_new_arrivals_max_num', 4 ) );

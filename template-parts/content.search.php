@@ -23,19 +23,6 @@ defined( 'ABSPATH' ) || exit;
 		}
 		?>
 	</div>
-	<div class="meta">
-		<p>
-			Published by <?php the_author_posts_link(); ?> on <?php echo get_the_date(); ?>
-			<br/>
-			<?php if ( has_category() ) { ?>
-				Categories: <span><?php the_category( ', ' ); ?></span>
-			<?php } ?>
-			<br/>
-			<?php
-			if ( has_tag() ) {
-				the_tags( 'Tags: ' ); }
-			?>
-		</p>
-	</div>
+	<?php get_template_part( 'template-parts/post', 'meta' ); ?>
 	<div class="excerpt"><?php the_excerpt(); ?></div>
 </article>

@@ -18,8 +18,8 @@ get_header();
 		<div class="container">
 			<div class="error-404">
 				<header>
-					<h1>Page not found</h1>
-					<p>Unfortunately, the page you tried to reach does not exist on this site.</p>
+					<h1><?php esc_html_e( 'Page not found', 'flux-commerce' ); ?></h1>
+					<p><?php esc_html_e( 'Unfortunately, the page you tried to reach does not exist on this site.', 'flux-commerce' ); ?></p>
 				</header>
 				<?php
 				the_widget(

@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) || exit;
 				echo esc_attr(
 					get_theme_mod(
 						'flux_commerce_settings_set_blog_title',
-						'Latest Blog Posts'
+						__( 'Latest Blog Posts', 'flux-commerce' )
 					)
 				);
 				?>
@@ -59,7 +59,7 @@ defined( 'ABSPATH' ) || exit;
 				wp_reset_postdata();
 			} else {
 				// No posts found.
-				echo '<p>No posts found.</p>';
+				esc_html_e( 'No posts found.', 'flux-commerce' );
 			}
 			?>
 		</div>

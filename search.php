@@ -16,7 +16,12 @@ get_header();
 	<main>
 		<div class="container">
 			<div class="row">
-				<h1>Search results for : <?php echo get_search_query(); ?></h1>
+				<h1>
+				<?php
+				esc_html_e( 'Search Results for :', 'flux-commerce' );
+				echo get_search_query();
+				?>
+				</h1>
 				<?php
 				// Query for the latest blog posts.
 				if ( have_posts() ) {
@@ -35,7 +40,7 @@ get_header();
 					wp_reset_postdata();
 				} else {
 					// No posts found.
-					echo '<p>There are no results for your query.</p>';
+					esc_html_e( 'There are no results for your query.', 'flux-commerce' );
 				}
 				?>
 			</div>

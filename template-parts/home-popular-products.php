@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 <section class="popular-products mt-5">
 	<div class="container">
 		<div class="section-title">
-			<h2>Popular Products</h2>
+			<h2><?php esc_html_e( 'Popular Products', 'flux-commerce' ); ?></h2>
 		</div>
 		<?php
 		$popular_limit   = esc_attr( get_theme_mod( 'flux_commerce_settings_popular_max_num', 4 ) );

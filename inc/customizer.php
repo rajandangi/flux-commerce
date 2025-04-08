@@ -37,7 +37,7 @@ function flux_commerce_customize_register( $wp_customize ) {
 		'flux_commerce_settings_copyright',
 		array(
 			'type'              => 'theme_mod',
-			'default'           => '© 2025 Flux Commerce. All rights reserved.',
+			'default'           => __( '© 2023 Flux Commerce. All rights reserved.', 'flux-commerce' ),
 			'sanitize_callback' => 'sanitize_text_field',
 		)
 	);

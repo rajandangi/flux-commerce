@@ -14,37 +14,25 @@ defined( 'ABSPATH' ) || exit;
 	<header>
 		<h1> <?php the_title(); ?> </h1>
 
-		<div class="meta">
-			<p>
-				Published by <?php the_author_posts_link(); ?> on <?php echo get_the_date(); ?>
-				<br/>
-		<?php if ( has_category() ) { ?>
-					Categories: <span><?php the_category( ' ' ); ?></span>
-				<?php } ?>
-				<br/>
-		<?php
-		if ( has_tag() ) {
-			the_tags( 'Tags: ' ); }
-		?>
-			</p>
-		</div>
+		<?php get_template_part( 'template-parts/post', 'meta' ); ?>
 		<div class="post-thumbnail">
-	<?php
-	if ( has_post_thumbnail() ) {
-		the_post_thumbnail( 'flux-commerce-blog', array( 'class' => 'img-fluid' ) );
-	}
-	?>
+			<?php
+			if ( has_post_thumbnail() ) {
+				the_post_thumbnail( 'flux-commerce-blog', array( 'class' => 'img-fluid' ) );
+			}
+			?>
 		</div>
 	</header>
+
 	<div class="content">
-	<?php
-	wp_link_pages(
-		array(
-			'before' => '<p class="inner-pagination">' . esc_html__( 'Pages:', 'flux-commerce' ),
-			'after'  => '</p>',
-		)
-	);
-	the_content();
-	?>
+		<?php
+		wp_link_pages(
+			array(
+				'before' => '<p class="inner-pagination">' . esc_html__( 'Pages:', 'flux-commerce' ),
+				'after'  => '</p>',
+			)
+		);
+		the_content();
+		?>
 	</div>
 </article>

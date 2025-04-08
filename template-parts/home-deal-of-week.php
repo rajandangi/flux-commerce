@@ -29,7 +29,7 @@ $discount_percentage = absint( ( ( $regular_price - $sale_price ) / $regular_pri
 <section class="deal-of-the-week">
 	<div class="container">
 		<div class="section-title">
-			<h2>Deal of the week</h2>
+			<h2><?php esc_html_e( 'Deal of the week', 'flux-commerce' ); ?></h2>
 		</div>
 		<div class="row d-flex align-items-center">
 			<div class="deal-img col-md-6 col-12 ms-auto text-center">
