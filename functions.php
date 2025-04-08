@@ -18,6 +18,7 @@ $flux_commerce_inc_dir = 'inc';
 // Array of files to include.
 $flux_commerce_includes = array(
 	'/setup.php',                           // Theme setup and custom theme supports.
+	'/widgets.php',                         // Register widget area.
 	'/enqueue.php',                         // Enqueue scripts and styles.
 	'/customizer.php',                      // Customizer additions.
 	'/slider-item.php',                     // Slider item rendering function.
