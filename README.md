@@ -1,6 +1,7 @@
 # Flux Commerce WordPress Theme
 
 Flux Commerce is a powerful, flexible, and responsive WordPress theme designed specifically for e-commerce websites. It is built using PHP, CSS, and JavaScript to provide a seamless shopping experience for your customers.
+![Flux Commerce](screenshot.png)
 
 ## Features
 
