@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flux Commerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-08 07:08+0000\n"
+"PO-Revision-Date: 2025-04-08 07:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: Nepali\n"
+"Language: ne_NP\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.2; wp-6.7.2\n"
+"X-Domain: flux-commerce"
+
+#: template-parts/home-deal-of-week.php:61
+msgid "Add to Cart"
+msgstr "कार्टमा थप्नुहोस्"
+
+#: inc/customizer.php:337
+msgid "Blog Title"
+msgstr "लेख शीर्षक"
+
+#. %s: List of categories
+#: template-parts/post-meta.php:28
+#, php-format
+msgid "Categories: %s"
+msgstr "श्रेणीहरू: %s"
+
+#. 1: number of comments, 2: post title
+#: comments.php:44
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; माथी %1$s विचार"
+msgstr[1] "&ldquo;%2$s&rdquo; माथी %1$s विचारहरू "
+
+#. %s: post title
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; मा एक विचार"
+
+#: inc/customizer.php:30
+msgid "Copyright Information"
+msgstr "कपिराइट जानकारी"
+
+#: inc/customizer.php:49
+msgid "Copyright Text"
+msgstr "कपिराइट पाठ"
+
+#: inc/customizer.php:31
+msgid "Customize the copyright information displayed in the footer."
+msgstr "फुटरमा देखाइने कपीराइट जानकारी अनुकूलित गर्नुहोस्।"
+
+#: inc/customizer.php:186
+msgid "Customize the homepage Product and Blog Behaviour."
+msgstr "गृहपृष्ठको उत्पादन र ब्लगको व्यवहार अनुकूलित गर्नुहोस्।"
+
+#: inc/customizer.php:62
+msgid "Customize the slider images and content displayed on the homepage."
+msgstr "गृहपृष्ठमा देखाइने स्लाइडर फोटो र सामग्री अनुकूलित गर्नुहोस्।"
+
+#: template-parts/home-deal-of-week.php:32
+msgid "Deal of the week"
+msgstr "सप्ताहको सम्झौता"
+
+#: inc/customizer.php:313
+msgid "Deal of the Week: Product ID"
+msgstr "सप्ताहको प्रस्ताव: उत्पादन आईडी"
+
+#. %d: Slider number
+#: inc/customizer.php:120 inc/slider-item.php:64
+msgid "Description for slider %d"
+msgstr "स्लाइडर %d को विवरण"
+
+#: inc/widgets.php:21 inc/widgets.php:45 inc/widgets.php:56 inc/widgets.php:67
+msgid "Drag and drop your widgets here"
+msgstr "यहाँ तपाईंका विजेटहरू तान्नुहोस् र छोड्नुहोस्"
+
+#: inc/widgets.php:33
+msgid "Drag and drop your WooCommerce widgets here"
+msgstr "यहाँ तपाईंका WooCommerce विजेटहरू तान्नुहोस् र छोड्नुहोस्"
+
+#. Name of the theme
+msgid "Flux Commerce"
+msgstr "फ्लक्स कमर्स "
+
+#: inc/widgets.php:43
+msgid "Flux Commerce Footer Sidebar-1"
+msgstr "फ्लक्स कमर्स फूटर साइडबार-१"
+
+#: inc/widgets.php:54
+msgid "Flux Commerce Footer Sidebar-2"
+msgstr "फ्लक्स कमर्स फूटर साइडबार-२"
+
+#: inc/widgets.php:65
+msgid "Flux Commerce Footer Sidebar-3"
+msgstr "फ्लक्स कमर्स फूटर साइडबार-३"
+
+#. Description of the theme
+msgid ""
+"Flux Commerce is a WooCommerce compatible wordpress theme designed for e-"
+"commerce websites. It features a clean and modern design, optimized for "
+"performance and user experience. The theme is fully responsive, ensuring a "
+"seamless shopping experience across all devices. With customizable options "
+"and support for popular plugins, Flux Commerce is the perfect choice for "
+"online stores looking to enhance their brand presence and drive sales."
+msgstr ""
+"फ्लक्स कमर्स एक WooCommerce अनुकूलित वर्डप्रेस थिम हो जुन ई-कमर्स "
+"वेबसाइटहरूको लागि डिजाइन गरिएको हो। यसले सफा र आधुनिक डिजाइन प्रस्तुत गर्दछ, "
+"प्रदर्शन र प्रयोगकर्ता अनुभवको लागि अनुकूलित गरिएको छ। थिम पूर्ण रूपमा "
+"प्रतिक्रियाशील छ, सबै उपकरणहरूमा निर्बाध किनमेल अनुभव सुनिश्चित गर्दै। "
+"अनुकूलन योग्य विकल्पहरू र लोकप्रिय प्लगइनहरूको समर्थनको साथ, फ्लक्स कमर्स "
+"अनलाइन स्टोरहरूको लागि ब्रान्ड उपस्थिति बढाउन र बिक्री बढाउनको लागि उत्तम "
+"विकल्प हो।"
+
+#: inc/widgets.php:19
+msgid "Flux Commerce Main Sidebar"
+msgstr "फ्लक्स कमर्स मुख्य साइडबार"
+
+#: inc/widgets.php:31
+msgid "Flux Commerce Shop Sidebar"
+msgstr "फ्लक्स कमर्स पसल साइडबार"
+
+#: inc/setup.php:45
+msgid "Footer Menu"
+msgstr "फुटर मेनु"
+
+#. Name of the template
+#: template-home.php:2
+msgid "Home Page"
+msgstr "गृह पृष्ठ"
+
+#: inc/customizer.php:185
+msgid "Homepage Products and Blog Settings"
+msgstr "मुखपृष्ठ उत्पादन र ब्लग सेटिङहरू"
+
+#. URI of the theme
+msgid "https://fluxcommerce.rajandangi.com.np"
+msgstr "https://fluxcommerce.rajandangi.com.np"
+
+#. Author URI of the theme
+msgid "https://www.rajandangi.com.np"
+msgstr "https://www.rajandangi.com.np"
+
+#: inc/customizer.php:329 template-parts/home-blog.php:20
+msgid "Latest Blog Posts"
+msgstr "नवीनतम ब्लग पोष्टहरू"
+
+#: inc/customizer.php:142 inc/slider-item.php:65
+msgid "Learn More"
+msgstr "थप जान्नुहोस्"
+
+#: header.php:74
+msgid "Login/Register"
+msgstr "लगइन/दर्ता"
+
+#: header.php:66
+msgid "Logout"
+msgstr "लगआउट"
+
+#: inc/setup.php:44
+msgid "Main Menu"
+msgstr "मुख्य मेनु"
+
+#: header.php:60
+msgid "My Account"
+msgstr "मेरो खाता"
+
+#: template-parts/home-new-arrivals.php:16
+msgid "New Arrivals"
+msgstr "नयाँ आगमनहरू"
+
+#: inc/customizer.php:271
+msgid "New Arrivals: Max Number of column/row"
+msgstr "नयाँ आगमन: अधिकतम स्तम्भ/पंक्तिको संख्या"
+
+#: inc/customizer.php:250
+msgid "New Arrivals: Max Number of Products to Show"
+msgstr "नयाँ आगमन: देखाउने उत्पादनहरूको अधिकतम संख्या"
+
+#. No posts found.
+#: index.php:39 archive.php:40 template-parts/home-blog.php:62
+msgid "No posts found."
+msgstr "कुनै पोष्ट फेला परेन।"
+
+#: 404.php:21
+msgid "Page not found"
+msgstr "पृष्ठ फेला परेन"
+
+#: template-parts/content-single.php:31
+msgid "Pages:"
+msgstr "पृष्ठहरू:"
+
+#: searchform.php:26
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "खोज्नुहोस &hellip;"
+
+#: template-parts/home-popular-products.php:16
+msgid "Popular Products"
+msgstr "लोकप्रिय उत्पादनहरू"
+
+#: inc/customizer.php:227
+msgid "Popular: Max Number of column/row"
+msgstr "लोकप्रिय: अधिकतम स्तम्भ/पंक्तिको संख्या"
+
+#: inc/customizer.php:204
+msgid "Popular: Max Number of Products to Show"
+msgstr "लोकप्रिय: देखाउने उत्पादनहरूको अधिकतम संख्या"
+
+#. %s: Author's posts link
+#: template-parts/post-meta.php:18
+#, php-format
+msgid "Published by %1$s on %2$s"
+msgstr "%1$s द्वारा %2$s मा प्रकाशित"
+
+#. Author of the theme
+msgid "Rajan Dangi"
+msgstr "राजन डाँगी"
+
+#: 404.php:28
+msgid "Recent Posts"
+msgstr "हालसालैका पोष्टहरू"
+
+#: inc/customizer.php:86
+msgid "Recommended size: 1920x800 pixels"
+msgstr "सिफारिस गरिएको आकार: 1920x800 पिक्सेल"
+
+#: search.php:21
+msgid "Search Results for :"
+msgstr "खोज परिणामहरू :"
+
+#: template-parts/default-slider.php:15
+msgid "Shop Now"
+msgstr "अहिले किन्नुहोस्"
+
+#: inc/customizer.php:294
+msgid "Show Deal of the Week"
+msgstr "सप्ताहको मुख्य डिल देखाउनुहोस्"
+
+#. %d: Slider number
+#: inc/customizer.php:151
+msgid "Slider %d Button Text"
+msgstr "स्लाइडर %d बटन पाठ"
+
+#. %d: Slider number
+#: inc/customizer.php:172
+msgid "Slider %d Button URL"
+msgstr "स्लाइडर %d बटन URL"
+
+#. %d: Slider number
+#: inc/customizer.php:130
+msgid "Slider %d Description"
+msgstr "स्लाइडर %d विवरण"
+
+#. %d: Slider number
+#: inc/customizer.php:85
+msgid "Slider %d Image"
+msgstr "स्लाइडर %d फोटो "
+
+#. %d: Slider number
+#: inc/customizer.php:98 inc/customizer.php:108 inc/slider-item.php:62
+msgid "Slider %d Title"
+msgstr "स्लाइडर %d शीर्षक"
+
+#: inc/customizer.php:61
+msgid "Slider Options"
+msgstr "स्लाइडर विकल्पहरू"
+
+#: searchform.php:28
+msgctxt "submit button"
+msgid "Search"
+msgstr "खोज्नुहोस"
+
+#. Tags label
+#: template-parts/post-meta.php:39
+msgid "Tags: "
+msgstr "ट्यागहरू: "
+
+#. No posts found.
+#: search.php:43
+msgid "There are no results for your query."
+msgstr "तपाईंले खोज्नु भएको जानकारी प्राप्त गर्न सकिएन। "
+
+#: 404.php:22
+msgid "Unfortunately, the page you tried to reach does not exist on this site."
+msgstr "दुर्भाग्यवश, तपाईंले पुग्न प्रयास गरेको पृष्ठ यस साइटमा भेटाउन सकिएन। "
+
+#: template-parts/default-slider.php:13
+msgid "Welcome to Flux Commerce"
+msgstr "फ्लक्स कमर्समा स्वागत छ"
+
+#: template-parts/default-slider.php:14
+msgid "Your one-stop shop for quality products"
+msgstr "गुणस्तरीय उत्पादनहरूको लागि तपाईंको एक-मात्र गन्तव्य "
+
+#: inc/customizer.php:40
+msgid "© 2023 Flux Commerce. All rights reserved."
+msgstr "© २०२३ फ्लक्स कमर्स। सबै अधिकार सुरक्षित।"

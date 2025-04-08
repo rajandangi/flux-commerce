@@ -1,0 +1,299 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Flux Commerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-08 07:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.2; wp-6.7.2\n"
+"X-Domain: flux-commerce"
+
+#: template-parts/home-deal-of-week.php:61
+msgid "Add to Cart"
+msgstr ""
+
+#: inc/customizer.php:337
+msgid "Blog Title"
+msgstr ""
+
+#. %s: List of categories
+#: template-parts/post-meta.php:28
+#, php-format
+msgid "Categories: %s"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:44
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: post title
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Copyright Information"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:31
+msgid "Customize the copyright information displayed in the footer."
+msgstr ""
+
+#: inc/customizer.php:186
+msgid "Customize the homepage Product and Blog Behaviour."
+msgstr ""
+
+#: inc/customizer.php:62
+msgid "Customize the slider images and content displayed on the homepage."
+msgstr ""
+
+#: template-parts/home-deal-of-week.php:32
+msgid "Deal of the week"
+msgstr ""
+
+#: inc/customizer.php:313
+msgid "Deal of the Week: Product ID"
+msgstr ""
+
+#. %d: Slider number
+#: inc/customizer.php:120 inc/slider-item.php:64
+msgid "Description for slider %d"
+msgstr ""
+
+#: inc/widgets.php:21 inc/widgets.php:45 inc/widgets.php:56 inc/widgets.php:67
+msgid "Drag and drop your widgets here"
+msgstr ""
+
+#: inc/widgets.php:33
+msgid "Drag and drop your WooCommerce widgets here"
+msgstr ""
+
+#. Name of the theme
+msgid "Flux Commerce"
+msgstr ""
+
+#: inc/widgets.php:43
+msgid "Flux Commerce Footer Sidebar-1"
+msgstr ""
+
+#: inc/widgets.php:54
+msgid "Flux Commerce Footer Sidebar-2"
+msgstr ""
+
+#: inc/widgets.php:65
+msgid "Flux Commerce Footer Sidebar-3"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Flux Commerce is a WooCommerce compatible wordpress theme designed for e-"
+"commerce websites. It features a clean and modern design, optimized for "
+"performance and user experience. The theme is fully responsive, ensuring a "
+"seamless shopping experience across all devices. With customizable options "
+"and support for popular plugins, Flux Commerce is the perfect choice for "
+"online stores looking to enhance their brand presence and drive sales."
+msgstr ""
+
+#: inc/widgets.php:19
+msgid "Flux Commerce Main Sidebar"
+msgstr ""
+
+#: inc/widgets.php:31
+msgid "Flux Commerce Shop Sidebar"
+msgstr ""
+
+#: inc/setup.php:45
+msgid "Footer Menu"
+msgstr ""
+
+#. Name of the template
+#: template-home.php:2
+msgid "Home Page"
+msgstr ""
+
+#: inc/customizer.php:185
+msgid "Homepage Products and Blog Settings"
+msgstr ""
+
+#. URI of the theme
+msgid "https://fluxcommerce.rajandangi.com.np"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.rajandangi.com.np"
+msgstr ""
+
+#: inc/customizer.php:329 template-parts/home-blog.php:20
+msgid "Latest Blog Posts"
+msgstr ""
+
+#: inc/customizer.php:142 inc/slider-item.php:65
+msgid "Learn More"
+msgstr ""
+
+#: header.php:74
+msgid "Login/Register"
+msgstr ""
+
+#: header.php:66
+msgid "Logout"
+msgstr ""
+
+#: inc/setup.php:44
+msgid "Main Menu"
+msgstr ""
+
+#: header.php:60
+msgid "My Account"
+msgstr ""
+
+#: template-parts/home-new-arrivals.php:16
+msgid "New Arrivals"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "New Arrivals: Max Number of column/row"
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "New Arrivals: Max Number of Products to Show"
+msgstr ""
+
+#. No posts found.
+#: index.php:39 archive.php:40 template-parts/home-blog.php:62
+msgid "No posts found."
+msgstr ""
+
+#: 404.php:21
+msgid "Page not found"
+msgstr ""
+
+#: template-parts/content-single.php:31
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:26
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: template-parts/home-popular-products.php:16
+msgid "Popular Products"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Popular: Max Number of column/row"
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "Popular: Max Number of Products to Show"
+msgstr ""
+
+#. %s: Author's posts link
+#: template-parts/post-meta.php:18
+#, php-format
+msgid "Published by %1$s on %2$s"
+msgstr ""
+
+#. Author of the theme
+msgid "Rajan Dangi"
+msgstr ""
+
+#: 404.php:28
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/customizer.php:86
+msgid "Recommended size: 1920x800 pixels"
+msgstr ""
+
+#: search.php:21
+msgid "Search Results for :"
+msgstr ""
+
+#: template-parts/default-slider.php:15
+msgid "Shop Now"
+msgstr ""
+
+#: inc/customizer.php:294
+msgid "Show Deal of the Week"
+msgstr ""
+
+#. %d: Slider number
+#: inc/customizer.php:151
+msgid "Slider %d Button Text"
+msgstr ""
+
+#. %d: Slider number
+#: inc/customizer.php:172
+msgid "Slider %d Button URL"
+msgstr ""
+
+#. %d: Slider number
+#: inc/customizer.php:130
+msgid "Slider %d Description"
+msgstr ""
+
+#. %d: Slider number
+#: inc/customizer.php:85
+msgid "Slider %d Image"
+msgstr ""
+
+#. %d: Slider number
+#: inc/customizer.php:98 inc/customizer.php:108 inc/slider-item.php:62
+msgid "Slider %d Title"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Slider Options"
+msgstr ""
+
+#: searchform.php:28
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#. Tags label
+#: template-parts/post-meta.php:39
+msgid "Tags: "
+msgstr ""
+
+#. No posts found.
+#: search.php:43
+msgid "There are no results for your query."
+msgstr ""
+
+#: 404.php:22
+msgid "Unfortunately, the page you tried to reach does not exist on this site."
+msgstr ""
+
+#: template-parts/default-slider.php:13
+msgid "Welcome to Flux Commerce"
+msgstr ""
+
+#: template-parts/default-slider.php:14
+msgid "Your one-stop shop for quality products"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "© 2023 Flux Commerce. All rights reserved."
+msgstr ""
