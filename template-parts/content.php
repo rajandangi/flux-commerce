@@ -24,5 +24,15 @@ defined( 'ABSPATH' ) || exit;
 		?>
 	</div>
 	<?php get_template_part( 'template-parts/post', 'meta' ); ?>
-	<div class="excerpt"><?php the_excerpt(); ?></div>
+	<div class="content">
+		<?php
+		if ( has_excerpt() ) :
+			the_excerpt();
+		elseif ( strpos( $post->post_content, '<!--more-->' ) ) :
+				the_content( 'More' );
+		else :
+			the_excerpt();
+		endif;
+		?>
+	</div>
 </article>

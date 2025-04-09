@@ -30,5 +30,10 @@ function flux_commerce_scripts() {
 	// Enqueue custom theme scripts and styles.
 	wp_enqueue_script( 'flux-commerce-js', get_template_directory_uri() . '/js/flux-commerce.js', array( 'jquery' ), filemtime( get_template_directory() . '/js/flux-commerce.js' ), true );
 	wp_enqueue_style( 'flux-commerce-style', get_stylesheet_uri(), array(), filemtime( get_template_directory() . '/style.css' ), 'all' );
+
+	// Comment-reply script for threaded comments.
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
 }
 add_action( 'wp_enqueue_scripts', 'flux_commerce_scripts' );

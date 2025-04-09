@@ -128,7 +128,7 @@ header .top-bar {
     padding: 1rem 0 0 0;
 }
 
-header p.site-title {
+header a.site-title {
     font-size: 1.5rem;
     line-height: 1.5rem;
     color: #000;
@@ -136,7 +136,7 @@ header p.site-title {
     margin: 0;
 }
 
-header p.site-title~span {
+header a.site-title~span {
     color: #000;
 }
 
@@ -1657,6 +1657,23 @@ ul li a,
     height: auto;
 }
 
+.format-gallery .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.format-gallery .content img {
+    width: calc(33.333% - 20px);
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.format-gallery .content img:hover {
+    transform: scale(1.05);
+}
 
 /* =WordPress Core
 -------------------------------------------------------------- */

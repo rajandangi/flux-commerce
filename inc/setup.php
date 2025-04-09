@@ -78,6 +78,17 @@ function flux_commerce_setup() {
 	 */
 	add_theme_support( 'customize-selective-refresh-widgets' );
 
+	/*
+	* Enable support for Post Formats.
+	* See https://wordpress.org/support/article/post-formats/
+	*/
+	add_theme_support(
+		'post-formats',
+		array(
+			'gallery',
+		)
+	);
+
 	// Set up the WordPress Theme logo feature.
 	add_theme_support(
 		'custom-logo',

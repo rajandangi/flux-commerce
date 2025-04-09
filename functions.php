@@ -23,6 +23,7 @@ $flux_commerce_includes = array(
 	'/customizer.php',                      // Customizer additions.
 	'/slider-item.php',                     // Slider item rendering function.
 	'/class-flux-commerce-bootstrap-5-wp-nav-menu-walker.php',    // Load custom WordPress nav walker.
+	'/required-plugins.php', // Load required plugins.
 );
 
 // Load WooCommerce functions if WooCommerce is activated.

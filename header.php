@@ -31,15 +31,16 @@
 			<section class="top-bar">
 				<div class="container">
 					<div class="row">
-					<div class="brand col-md-4 col-12 col-lg-3 d-flex align-items-center justify-content-center justify-content-md-start">
+					<div class="brand col-md-4 col-12 col-lg-3 d-flex align-items-center align-items-md-start justify-content-center flex-column">
 							<?php
 							if ( has_custom_logo() ) :
 								the_custom_logo();
 							else :
 								?>
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="site-title">
 									<?php bloginfo( 'title' ); ?>
 								</a>
+								<span><?php bloginfo( 'description' ); ?></span>
 								<?php
 							endif;
 							?>

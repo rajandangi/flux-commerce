@@ -14,10 +14,14 @@ defined( 'ABSPATH' ) || exit;
 	<p>
 		<?php
 		printf(
-			/* translators: %s: Author's posts link */
+			/* translators: %1$s: Author's posts link, %2$s: Post date permalink */
 			esc_html__( 'Published by %1$s on %2$s', 'flux-commerce' ),
 			wp_kses_post( get_the_author_posts_link() ),
-			get_the_date()
+			sprintf(
+				'<a href="%s">%s</a>',
+				esc_url( get_permalink() ),
+				esc_html( get_the_date() )
+			)
 		);
 		?>
 		<br/>

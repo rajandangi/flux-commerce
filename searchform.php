@@ -28,7 +28,7 @@ if ( isset( $args['aria_label'] ) && ! empty( $args['aria_label'] ) ) {
 			<span class="screen-reader-text"><?php echo esc_attr_x( 'Search', 'submit button', 'flux-commerce' ); ?></span>
 		</button>
 		<?php if ( class_exists( 'WooCommerce' ) ) : ?>
-			<!-- <input type="hidden" name="post_type" value="product"> -->
+			<input type="hidden" name="post_type" value="product">
 		<?php endif; ?>
 	</div>
 </form>

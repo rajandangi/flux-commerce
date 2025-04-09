@@ -26,8 +26,9 @@ defined( 'ABSPATH' ) || exit;
 		<div class="row">
 			<?php
 			$args       = array(
-				'post_type'      => 'post',
-				'posts_per_page' => 2,
+				'post_type'           => 'post',
+				'posts_per_page'      => 2,
+				'ignore_sticky_posts' => true,
 			);
 			$blog_posts = new WP_Query( $args );
 
