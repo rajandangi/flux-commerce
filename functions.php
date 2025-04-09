@@ -31,6 +31,17 @@ if ( class_exists( 'WooCommerce' ) ) {
 	$flux_commerce_includes[] = '/woocommerce.php';
 }
 
+/**
+ * Backwards compatibility to the wp_body_open() function.
+ *
+ * This function is used to add code to the wp_body_open hook.
+ * It was introduced in WordPress 5.2.
+ *
+ * @since 1.0
+ */
+if ( ! function_exists( 'wp_body_open' ) ) {
+	wp_body_open();
+}
 
 // Include files.
 foreach ( $flux_commerce_includes as $file ) {

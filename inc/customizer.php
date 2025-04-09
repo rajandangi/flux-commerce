@@ -187,139 +187,144 @@ function flux_commerce_customize_register( $wp_customize ) {
 		)
 	);
 
-	// ====== Popular Products ======
+	// Start: Check if WooCommerce is active.
+	if ( class_exists( 'WooCommerce' ) ) :
+		// ====== Popular Products ======
 
-	$wp_customize->add_setting(
-		'flux_commerce_settings_popular_max_num',
-		array(
-			'type'              => 'theme_mod',
-			'default'           => 4,
-			'sanitize_callback' => 'absint',
-		)
-	);
+		$wp_customize->add_setting(
+			'flux_commerce_settings_popular_max_num',
+			array(
+				'type'              => 'theme_mod',
+				'default'           => 4,
+				'sanitize_callback' => 'absint',
+			)
+		);
 
-	$wp_customize->add_control(
-		'flux_commerce_settings_popular_max_num',
-		array(
-			'label'       => __( 'Popular: Max Number of Products to Show', 'flux-commerce' ),
-			'section'     => 'flux_commerce_section_homepage',
-			'settings'    => 'flux_commerce_settings_popular_max_num',
-			'type'        => 'number',
-			'input_attrs' => array(
-				'min' => 1,
-				'max' => 20,
-			),
-		)
-	);
+		$wp_customize->add_control(
+			'flux_commerce_settings_popular_max_num',
+			array(
+				'label'       => __( 'Popular: Max Number of Products to Show', 'flux-commerce' ),
+				'section'     => 'flux_commerce_section_homepage',
+				'settings'    => 'flux_commerce_settings_popular_max_num',
+				'type'        => 'number',
+				'input_attrs' => array(
+					'min' => 1,
+					'max' => 20,
+				),
+			)
+		);
 
-	$wp_customize->add_setting(
-		'flux_commerce_settings_popular_max_col',
-		array(
-			'type'              => 'theme_mod',
-			'default'           => 4,
-			'sanitize_callback' => 'absint',
-		)
-	);
+		$wp_customize->add_setting(
+			'flux_commerce_settings_popular_max_col',
+			array(
+				'type'              => 'theme_mod',
+				'default'           => 4,
+				'sanitize_callback' => 'absint',
+			)
+		);
 
-	$wp_customize->add_control(
-		'flux_commerce_settings_popular_max_col',
-		array(
-			'label'       => __( 'Popular: Max Number of column/row', 'flux-commerce' ),
-			'section'     => 'flux_commerce_section_homepage',
-			'settings'    => 'flux_commerce_settings_popular_max_col',
-			'type'        => 'number',
-			'input_attrs' => array(
-				'min' => 1,
-				'max' => 6,
-			),
-		)
-	);
+		$wp_customize->add_control(
+			'flux_commerce_settings_popular_max_col',
+			array(
+				'label'       => __( 'Popular: Max Number of column/row', 'flux-commerce' ),
+				'section'     => 'flux_commerce_section_homepage',
+				'settings'    => 'flux_commerce_settings_popular_max_col',
+				'type'        => 'number',
+				'input_attrs' => array(
+					'min' => 1,
+					'max' => 6,
+				),
+			)
+		);
 
-	// ====== New Arrivals ======
-	$wp_customize->add_setting(
-		'flux_commerce_settings_new_arrivals_max_num',
-		array(
-			'type'              => 'theme_mod',
-			'default'           => 4,
-			'sanitize_callback' => 'absint',
-		)
-	);
-	$wp_customize->add_control(
-		'flux_commerce_settings_new_arrivals_max_num',
-		array(
-			'label'       => __( 'New Arrivals: Max Number of Products to Show', 'flux-commerce' ),
-			'section'     => 'flux_commerce_section_homepage',
-			'settings'    => 'flux_commerce_settings_new_arrivals_max_num',
-			'type'        => 'number',
-			'input_attrs' => array(
-				'min' => 1,
-				'max' => 20,
-			),
-		)
-	);
-	$wp_customize->add_setting(
-		'flux_commerce_settings_new_arrivals_max_col',
-		array(
-			'type'              => 'theme_mod',
-			'default'           => 4,
-			'sanitize_callback' => 'absint',
-		)
-	);
-	$wp_customize->add_control(
-		'flux_commerce_settings_new_arrivals_max_col',
-		array(
-			'label'       => __( 'New Arrivals: Max Number of column/row', 'flux-commerce' ),
-			'section'     => 'flux_commerce_section_homepage',
-			'settings'    => 'flux_commerce_settings_new_arrivals_max_col',
-			'type'        => 'number',
-			'input_attrs' => array(
-				'min' => 1,
-				'max' => 6,
-			),
-		)
-	);
+		// ====== New Arrivals ======
+		$wp_customize->add_setting(
+			'flux_commerce_settings_new_arrivals_max_num',
+			array(
+				'type'              => 'theme_mod',
+				'default'           => 4,
+				'sanitize_callback' => 'absint',
+			)
+		);
+		$wp_customize->add_control(
+			'flux_commerce_settings_new_arrivals_max_num',
+			array(
+				'label'       => __( 'New Arrivals: Max Number of Products to Show', 'flux-commerce' ),
+				'section'     => 'flux_commerce_section_homepage',
+				'settings'    => 'flux_commerce_settings_new_arrivals_max_num',
+				'type'        => 'number',
+				'input_attrs' => array(
+					'min' => 1,
+					'max' => 20,
+				),
+			)
+		);
+		$wp_customize->add_setting(
+			'flux_commerce_settings_new_arrivals_max_col',
+			array(
+				'type'              => 'theme_mod',
+				'default'           => 4,
+				'sanitize_callback' => 'absint',
+			)
+		);
+		$wp_customize->add_control(
+			'flux_commerce_settings_new_arrivals_max_col',
+			array(
+				'label'       => __( 'New Arrivals: Max Number of column/row', 'flux-commerce' ),
+				'section'     => 'flux_commerce_section_homepage',
+				'settings'    => 'flux_commerce_settings_new_arrivals_max_col',
+				'type'        => 'number',
+				'input_attrs' => array(
+					'min' => 1,
+					'max' => 6,
+				),
+			)
+		);
 
-	// ====== Deal of the Week: Show/Hide Checkbox ======
-	$wp_customize->add_setting(
-		'flux_commerce_settings_deal_of_week_show',
-		array(
-			'type'              => 'theme_mod',
-			'default'           => 1,
-			'sanitize_callback' => 'flux_commerce_sanitize_checkbox',
-		)
-	);
-	$wp_customize->add_control(
-		'flux_commerce_settings_deal_of_week_show',
-		array(
-			'label'    => __( 'Show Deal of the Week', 'flux-commerce' ),
-			'section'  => 'flux_commerce_section_homepage',
-			'settings' => 'flux_commerce_settings_deal_of_week_show',
-			'type'     => 'checkbox',
-		)
-	);
+		// ====== Deal of the Week: Show/Hide Checkbox ======
+		$wp_customize->add_setting(
+			'flux_commerce_settings_deal_of_week_show',
+			array(
+				'type'              => 'theme_mod',
+				'default'           => 1,
+				'sanitize_callback' => 'flux_commerce_sanitize_checkbox',
+			)
+		);
+		$wp_customize->add_control(
+			'flux_commerce_settings_deal_of_week_show',
+			array(
+				'label'    => __( 'Show Deal of the Week', 'flux-commerce' ),
+				'section'  => 'flux_commerce_section_homepage',
+				'settings' => 'flux_commerce_settings_deal_of_week_show',
+				'type'     => 'checkbox',
+			)
+		);
 
-	// ====== Deal of the Week Product ID ======
-	$wp_customize->add_setting(
-		'flux_commerce_settings_deal_of_week',
-		array(
-			'type'              => 'theme_mod',
-			'default'           => '',
-			'sanitize_callback' => 'absint',
-		)
-	);
-	$wp_customize->add_control(
-		'flux_commerce_settings_deal_of_week',
-		array(
-			'label'       => __( 'Deal of the Week: Product ID', 'flux-commerce' ),
-			'section'     => 'flux_commerce_section_homepage',
-			'settings'    => 'flux_commerce_settings_deal_of_week',
-			'type'        => 'number',
-			'input_attrs' => array(
-				'min' => 1,
-				'max' => 999999,
-			),
-		)
-	);
+		// ====== Deal of the Week Product ID ======
+		$wp_customize->add_setting(
+			'flux_commerce_settings_deal_of_week',
+			array(
+				'type'              => 'theme_mod',
+				'default'           => '',
+				'sanitize_callback' => 'absint',
+			)
+		);
+		$wp_customize->add_control(
+			'flux_commerce_settings_deal_of_week',
+			array(
+				'label'       => __( 'Deal of the Week: Product ID', 'flux-commerce' ),
+				'section'     => 'flux_commerce_section_homepage',
+				'settings'    => 'flux_commerce_settings_deal_of_week',
+				'type'        => 'number',
+				'input_attrs' => array(
+					'min' => 1,
+					'max' => 999999,
+				),
+			)
+		);
+
+	endif;
+	// End: Check if WooCommerce is active.
 
 	// ==== Blog Settings====
 	$wp_customize->add_setting(
