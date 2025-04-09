@@ -64,6 +64,11 @@ function flux_commerce_register_required_plugins() {
 			'slug'     => 'woocommerce', // The plugin slug (typically the folder name).
 			'required' => false,
 		),
+		array(
+			'name'     => 'One Click Demo Import', // The plugin name.
+			'slug'     => 'one-click-demo-import', // The plugin slug (typically the folder name).
+			'required' => false,
+		),
 
 	);
 

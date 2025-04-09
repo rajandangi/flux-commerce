@@ -29,7 +29,13 @@ function flux_commerce_scripts() {
 
 	// Enqueue custom theme scripts and styles.
 	wp_enqueue_script( 'flux-commerce-js', get_template_directory_uri() . '/js/flux-commerce.js', array( 'jquery' ), filemtime( get_template_directory() . '/js/flux-commerce.js' ), true );
-	wp_enqueue_style( 'flux-commerce-style', get_stylesheet_uri(), array(), filemtime( get_template_directory() . '/style.css' ), 'all' );
+
+	// Check if the environment is local for development.
+	$version = '1.0';
+	if ( defined( 'WP_ENVIRONMENT_TYPE' ) && WP_ENVIRONMENT_TYPE === 'local' ) {
+		$version = filemtime( get_template_directory() . '/style.css' );
+	}
+	wp_enqueue_style( 'flux-commerce-style', get_stylesheet_uri(), array(), $version, 'all' );
 
 	// Comment-reply script for threaded comments.
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
